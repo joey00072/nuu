@@ -1,0 +1,50 @@
+[project]
+name = "nuu"
+version = "0.1.0"
+description = "Python implementation of Pi coding agent"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.0.0",
+    "asyncio",
+    "jsonschema>=4.26.0",
+    "wcwidth>=0.2.0",
+    "httpx>=0.28.1",
+    "websockets>=14.0",
+    "boto3>=1.34.0",
+    "google-auth>=2.29.0",
+    "requests>=2.31.0",
+    "grapheme>=0.6.0",
+]
+
+[project.scripts]
+nuu = "nuu.__main__:main"
+
+[tool.uv]
+package = true
+dev-dependencies = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+    "ruff>=0.1.0",
+    "mypy>=1.0.0",
+    "types-jsonschema>=4.26.0",
+]
+
+[tool.mypy]
+python_version = "3.11"
+warn_unused_ignores = true
+ignore_missing_imports = true
+# TypedDict dict-literal construction with extra keys is common in event streaming
+disable_error_code = [
+    "misc",              # TypedDict ambiguity
+    "typeddict-item",    # dict literal vs TypedDict
+    "no-redef",          # Variable reuse in TypeScript patterns
+    "union-attr",        # Union narrowing on content blocks
+    "call-overload",     # dict.get with Literal keys
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+norecursedirs = ["ref", ".*"]
+
+[tool.setuptools.packages.find]
+include = ["nuu*"]
