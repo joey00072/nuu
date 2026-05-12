@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Nuu terminal preview</title>
+  <desc id="desc">A dark terminal preview of Nuu showing a completed shell command, assistant response, editor prompt, and status footer.</desc>
+  <rect width="1600" height="900" fill="#1f1f1f"/>
+  <rect x="0" y="0" width="1600" height="38" fill="#222"/>
+  <rect x="0" y="0" width="94" height="38" fill="#262626"/>
+  <rect x="0" y="0" width="94" height="4" fill="#4078f2"/>
+  <text x="12" y="24" font-family="Menlo, Consolas, monospace" font-size="16" fill="#d8d8d8">▸_ nuu</text>
+
+  <text x="30" y="82" font-family="Menlo, Consolas, monospace" font-size="28" fill="#d0d0d0">thought_signature=None), input_type=ToolCall])</text>
+
+  <rect x="16" y="122" width="1568" height="365" fill="#213224"/>
+  <text x="30" y="162" font-family="Menlo, Consolas, monospace" font-size="24" fill="#b8d46c">✓</text>
+  <text x="58" y="162" font-family="Menlo, Consolas, monospace" font-size="24" fill="#9ccfc7">$ git log --oneline -5 2&gt;/dev/null; cat README.md 2&gt;/dev/null | head -30; ls *.py *.js *.ts *.go *.rs 2&gt;/dev/null | head -10</text>
+  <text x="30" y="205" font-family="Menlo, Consolas, monospace" font-size="24" fill="#d7d7d7">total 528</text>
+  <text x="30" y="248" font-family="Menlo, Consolas, monospace" font-size="24" fill="#777">drwxr-xr-x@ 17 joey  staff   544 13 May 00:53 .</text>
+  <text x="30" y="291" font-family="Menlo, Consolas, monospace" font-size="24" fill="#777">drwxr-xr-x  49 joey  staff  1568 11 May 20:54 ..</text>
+  <text x="30" y="334" font-family="Menlo, Consolas, monospace" font-size="24" fill="#777">drwxr-xr-x@ 12 joey  staff   384 13 May 01:03 .git</text>
+  <text x="30" y="377" font-family="Menlo, Consolas, monospace" font-size="24" fill="#777">-rw-r--r--@  1 joey  staff   145 13 May 00:53 .gitignore</text>
+  <text x="30" y="420" font-family="Menlo, Consolas, monospace" font-size="24" fill="#777">... 13 more lines (Ctrl+O to expand)</text>
+
+  <text x="30" y="555" font-family="Menlo, Consolas, monospace" font-size="23" font-style="italic" fill="#9a9a9a">The repo is "Nuu" - a Python implementation of Pi's terminal coding-agent architecture. One line should capture the essence.</text>
+
+  <text x="30" y="650" font-family="Menlo, Consolas, monospace" font-size="25" fill="#f0f0f0">Nuu is a Python reimplementation of Pi's terminal-based coding-agent architecture, cleanly split into four</text>
+  <text x="30" y="700" font-family="Menlo, Consolas, monospace" font-size="25" fill="#f0f0f0">layers: provider adapters, an agent runtime, a coding agent with tools/sessions/prompts, and a raw ANSI terminal</text>
+  <text x="30" y="750" font-family="Menlo, Consolas, monospace" font-size="25" fill="#f0f0f0">UI engine.</text>
+
+  <line x1="16" y1="805" x2="608" y2="805" stroke="#777" stroke-width="1"/>
+  <text x="622" y="814" font-family="Menlo, Consolas, monospace" font-size="20" fill="#6f6f6f">opencode/ring-2.6-1t-free</text>
+  <line x1="958" y1="805" x2="1584" y2="805" stroke="#777" stroke-width="1"/>
+  <text x="16" y="850" font-family="Menlo, Consolas, monospace" font-size="28" fill="#9ccfc7">&gt;</text>
+  <rect x="44" y="828" width="14" height="42" fill="#e8e8e8"/>
+  <line x1="16" y1="888" x2="1584" y2="888" stroke="#555" stroke-width="1"/>
+  <text x="16" y="880" font-family="Menlo, Consolas, monospace" font-size="19" fill="#777">~/workspace/nuu (main)</text>
+  <text x="920" y="880" font-family="Menlo, Consolas, monospace" font-size="19" fill="#777">● idle  opencode/ring-2.6-1t-free · thinking off</text>
+</svg>

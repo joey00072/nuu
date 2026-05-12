@@ -20,6 +20,10 @@ Nuu is organized as four separable layers:
 - `nuu.tui` - raw ANSI terminal engine, editor, widgets, keybindings, overlays,
   and differential rendering.
 
+<p align="center">
+  <img src="docs/assets/preview.svg" alt="Nuu terminal preview" width="900">
+</p>
+
 ## Table of Contents
 
 - [Quick Start](#quick-start)
